@@ -9,6 +9,7 @@ public class Arrow : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.freezeRotation = true;
         rb.gravityScale = 0;
         
     }
